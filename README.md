@@ -21,3 +21,12 @@ Shows the changes that have been made between a previous commit and the files pe
 
 ## git log 
 Shows the previous commit history. This include the commit message, date, time, author, and commit ID (or hash). 
+
+## git clean
+Removes files that are not being tracked.
+
+## git push origin BRANCH
+Pushes files from the origin branch to the git server that hosts the repository.  "BRANCH" should be replaced with the name of the branch, although it does not have to be specified. if "BRANCH" is not entered, then the current branch will be pushed.
+
+## git pull origin BRANCH
+Pulls the latest version of the branch from your git server. "BRANCH" should be reaplced with the name of the branch, although it does not have to be specified.
