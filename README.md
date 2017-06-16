@@ -10,6 +10,9 @@ Lists all of the branches that are in the current branch.
 ## git add . 
 Adds all the files that have not been staged for commit in the current directory. 
 
+## git commit -m "MESSAGE" 
+Commits the changes made to files, removal of files from the repo, and addition of files to the repo. MESSAGE should be replaced with a details of the changes made since the last commit.
+
 ## git status 
 Shows the current branch, files that have added but not committed, files that have been removed but not committed, files that have not been staged for committing. 
 
@@ -20,7 +23,7 @@ Removes files from the repository. If removing directories, "-r" option needs to
 Shows the changes that have been made between a previous commit and the files pending commitment. If no files have been staged for commit, then this command will not return any output.  COMMITHASH should be replaced with the unique identifer of a previous commit.
 
 ## git log 
-Shows the previous commit history. This include the commit message, date, time, author, and commit ID (or hash). 
+Shows the commit history. This include the commit message, date, time, author, and commit ID (or hash). 
 
 ## git clean
 Removes files that are not being tracked.
@@ -30,3 +33,4 @@ Pushes files from the origin branch to the git server that hosts the repository.
 
 ## git pull origin BRANCH
 Pulls the latest version of the branch from your git server. "BRANCH" should be reaplced with the name of the branch, although it does not have to be specified.
+
