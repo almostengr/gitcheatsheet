@@ -27,7 +27,7 @@ Removes files from the repository. If removing directories, "-r" option needs to
 ### git diff --cached COMMITHASH
 Shows the changes that have been made between a previous commit and the files pending commitment. If no files have been staged for commit, then this command will not return any output.  ```COMMITHASH``` should be replaced with the unique identifer of a previous commit.
 
-#### git diff --cached $(git log | head -1 | awk '{print $2}'
+#### git diff --cached $(git log | head -1 | awk '{print $2}')
 Performs the same command above, but automatically gets the latest commit from the ```git log``` command.
 
 ### git log 
