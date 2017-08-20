@@ -59,3 +59,8 @@ Combines changes from two branches into a single branch.
 
 ### branch
 A version of code in the repository. Changes to the code are normally done in another branch and then merged into the master branch of the repository.
+
+### markdown
+Format of readme files that are formatted into HTML on github. Files end with ```.md``` and ```.markdown```.
+
+
