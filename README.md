@@ -62,7 +62,7 @@ Shows the commit history. This include the commit message, date, time, author, a
 ```bash
 git clean
 ```
-Removes files that are not being tracked.
+    Removes files that are not being tracked.
 
 ```bash
 git push origin BRANCH
@@ -94,3 +94,13 @@ A version of code in the repository. Changes to the code are normally done in an
 
 ### markdown
 Format of readme files that are formatted into HTML on github. Files end with ```.md``` and ```.markdown```.
+
+
+## Author
+Kenny Robinson, @almostengr
+
+https://facebook.com/almostengr
+
+https://instagram.com/almostengr
+
+https://twitter.com/almostengr
