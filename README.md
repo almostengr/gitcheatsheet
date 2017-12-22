@@ -62,7 +62,7 @@ Shows the commit history. This include the commit message, date, time, author, a
 ```bash
 git clean
 ```
-    Removes files that are not being tracked.
+Removes files that are not being tracked.
 
 ```bash
 git push origin BRANCH
