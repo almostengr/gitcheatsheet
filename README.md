@@ -74,6 +74,11 @@ git pull origin BRANCH
 ```
 Pulls the latest version of the branch from your git server. ```BRANCH``` should be replaced with the name of the branch, although it does not have to be specified.
 
+```bash
+git ls-files --deleted -z | xargs -0 git rm
+```
+Deletes the local files that have already been removed from the git repo.
+
 
 ## Definitions
 
