@@ -90,6 +90,10 @@ git ls-files --deleted -z | xargs -0 git rm
 ```
 Deletes the local files that have already been removed from the git repo.
 
+```bash
+git branch | grep -v master | xargs git branch -D 
+```
+Deletes all of the local branches except master. Useful for when multiple remote branches have been removed and you need to remove the local corresponding branches.
 
 ## Definitions
 
