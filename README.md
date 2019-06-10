@@ -122,4 +122,7 @@ Format of readme files that are formatted into HTML on github. Files end with ``
 Kenny Robinson, @almostengr
 
 https://instagram.com/almostengr
+
 https://twitter.com/almostengr
+
+http://thealmostengineer.com
