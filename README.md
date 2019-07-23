@@ -1,6 +1,8 @@
 # Git Cheat Sheet
 Cheatsheet of commands to use when working with git. This is a quick reference for the commands that are most commonly used when working with Git.
 
+A description of what each command does if executed, is provided under each command.
+
 ## Commands
 
 ```bash
