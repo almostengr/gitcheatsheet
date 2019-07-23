@@ -118,9 +118,14 @@ Combines changes from two branches into a single branch.
 A version of code in the repository. Changes to the code are normally done in another branch and then 
 merged into the master branch of the repository.
 
-### markdown
-Format of readme files that are formatted into HTML on github. Files end with ```.md``` and ```.markdown```.
+### push
+To send the code from your local machine to the central repository (server).
 
+### pull 
+To get the latest code from the central repository (server) to your local machine.
+
+### clone 
+To make a copy of the repository from the central repository (server) to the local machine.
 
 ## Author
 Kenny Robinson, @almostengr
