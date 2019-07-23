@@ -16,7 +16,12 @@ Lists all of the branches that are in the current branch.
 ```bash
 git add .
 ```
-Adds all the files that have not been staged for commit in the current directory. 
+Stages all of the files for commit in the current and subirectories.
+
+```bash
+git add -u
+```
+Stages all of the previously commited files in the current and subdirectories.
 
 ```bash
 git commit -m "MESSAGE"
@@ -65,7 +70,6 @@ Shows the changes between the latest commit and the previous commit by pulling t
 git log
 ```
 Shows the commit history. This include the commit message, date, time, author, and commit ID (or hash). 
-
 
 ```bash
 git clean
