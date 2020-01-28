@@ -5,48 +5,58 @@ A description of what each command does if executed, is provided under each comm
 
 ## Commands
 
+### Create a new repository in the current directory
+
 ```bash
 git init
 ```
-Creates a new repository in the current directory. 
+
+### List all of the branches in the current repo 
 
 ```bash
 git branch
 ```
-Lists all of the branches that are in the current branch. 
+
+### Stage all of the files in the current directory for commit
 
 ```bash
 git add .
 ```
-Stages all of the files for commit in the current and subirectories.
+
+### Stage all of the previously committed files for commit 
 
 ```bash
 git add -u
 ```
-Stages all of the previously commited files in the current and subdirectories.
+
+### Commit the changes made to files
 
 ```bash
 git commit -m "MESSAGE"
 ```
-Commits the changes made to files, removal of files from the repo, and addition of files to the repo. 
-```MESSAGE``` should be replaced with a details of the changes made since the last commit.
+"MESSAGE" should be replaced with a details of the changes made since the last commit.
+
+### Clones the repository from the source to your computer
 
 ```bash
 git clone REPOURL
 ```
-Makes a copy of the repository from Github to your local computer. This allows for changes to be made 
-from your local computer. ```REPOURL``` should be replaced with the URL from the remote repository.
+
+"REPOURL" should be replaced with the URL from the remote repository.
+
+### Show the current branch, files that are staged, and files that are unstaged
 
 ```bash
 git status
 ```
-Shows the current branch, files that have added but not committed, files that have been removed but not 
-committed, files that have not been staged for committing. 
+
+### Remove files from the repository 
 
 ```bash
 git rm FILENAME
 ```
-Removes files from the repository. If removing directories, "-r" option needs to be used. Replace 
+
+If removing directories, "-r" option needs to be used. Replace 
 ```FILENAME``` with the name of the actual file. 
 
 ```bash
@@ -129,11 +139,5 @@ To get the latest code from the central repository (server) to your local machin
 ### clone 
 To make a copy of the repository from the central repository (server) to the local machine.
 
-## Author
-Kenny Robinson, @almostengr
+[thealmostengineer.com](http://thealmostengineer.com)
 
-https://instagram.com/almostengr
-
-https://twitter.com/almostengr
-
-http://thealmostengineer.com
