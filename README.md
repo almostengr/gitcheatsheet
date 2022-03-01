@@ -3,6 +3,11 @@ Cheatsheet of commands to use when working with git. This is a quick reference f
 
 A description of what each command does if executed, is provided under each command.
 
+## Project Archived 
+
+This project has been archived. The latest version of this cheat sheet is available at 
+[https://thealmostengineer.com/resources/git-cheatsheet/](https://thealmostengineer.com/resources/git-cheatsheet/).
+
 ## Commands
 
 ```bash
